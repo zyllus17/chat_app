@@ -1,4 +1,5 @@
 import 'package:chat_app/routes/app_routes.dart';
+import 'package:chat_app/styles/theme_style.dart';
 import 'package:chat_app/views/auth_view.dart';
 import 'package:chat_app/views/home_view.dart';
 import 'package:chat_app/views/unknown_view.dart';
@@ -16,9 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: AppTheme.lightTheme,
       getPages: RouteView.values.map((e) {
         switch (e) {
           case RouteView.home:
