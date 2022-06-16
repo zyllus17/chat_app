@@ -21,14 +21,14 @@ class AppTheme {
       primarySwatch: primarySwatch,
       brightness: Brightness.light,
       scaffoldBackgroundColor: Colors.white,
-      appBarTheme: AppBarTheme(
+      appBarTheme: const AppBarTheme(
         backgroundColor: Colors.white,
         centerTitle: true,
         foregroundColor: AppColors.darkPurpleColor,
         elevation: 0,
       ),
-      iconTheme: IconThemeData(color: AppColors.darkPurpleColor),
-      bottomNavigationBarTheme: BottomNavigationBarThemeData(
+      iconTheme: const IconThemeData(color: AppColors.darkPurpleColor),
+      bottomNavigationBarTheme: const BottomNavigationBarThemeData(
         backgroundColor: Colors.white,
         elevation: 0,
         selectedItemColor: AppColors.darkPurpleColor,
